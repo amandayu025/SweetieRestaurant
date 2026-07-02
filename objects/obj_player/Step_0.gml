@@ -26,4 +26,4 @@ sprite_index = sprite[face];
 x += xspd;
 y += yspd;
 
-depth = - bbox_top;
+depth = - bbox_bottom;
