@@ -37,6 +37,8 @@
   "resources":[
     {"id":{"name":"obj_cabinets","path":"objects/obj_cabinets/obj_cabinets.yy",},},
     {"id":{"name":"obj_fridge","path":"objects/obj_fridge/obj_fridge.yy",},},
+    {"id":{"name":"obj_npc_controller","path":"objects/obj_npc_controller/obj_npc_controller.yy",},},
+    {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
@@ -48,6 +50,7 @@
     {"id":{"name":"spr_cabinets","path":"sprites/spr_cabinets/spr_cabinets.yy",},},
     {"id":{"name":"spr_fridge","path":"sprites/spr_fridge/spr_fridge.yy",},},
     {"id":{"name":"spr_inside_tiles","path":"sprites/spr_inside_tiles/spr_inside_tiles.yy",},},
+    {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
