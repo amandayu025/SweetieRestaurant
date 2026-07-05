@@ -2,10 +2,10 @@
 
 if(state=="going")
 {
-    var tx=global.counterSeats[seatIndex].x;
-    var ty=global.counterSeats[seatIndex].y;
+    tx = global.counterSeats[seatIndex].x;
+    ty = global.counterSeats[seatIndex].y;
 
-    if(point_distance(x,y,tx,ty)<10)
+    if(point_distance(x,y,tx,ty)==0)
     {
         path_end();
 
@@ -49,12 +49,4 @@ if(state=="waiting")
 
         global.counterSeats[seatIndex].occupied=false;
     }
-}
-
-
-// Remove outside room
-
-if(x>room_width+50)
-{
-    instance_destroy();
 }

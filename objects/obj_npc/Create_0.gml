@@ -1,24 +1,33 @@
 // Random customer data
 
-names = ["John","Emma","Mike","Sarah","Lucas"];
-orders = ["Coffee","Latte","Tea","Espresso"];
+colors = ["Blue","Red","Green","Yellow"];
+orders = ["Soup","Salad","Pasta","Fish"];
 
-customer_name =
-names[irandom(array_length(names)-1)];
-
+customer_color =
+colors[irandom(array_length(colors)-1)];
+switch (customer_color){
+	case "Blue": 
+	sprite_index = spr_npc_blue;
+	break;
+	case "Red":
+	sprite_index = spr_npc_red;
+	break;
+	case "Green":
+	sprite_index = spr_npc_green;
+	break;
+	case "Yellow":
+	sprite_index = spr_npc_yellow;
+	break;
+}
 customer_order =
 orders[irandom(array_length(orders)-1)];
-
-seatIndex = -1;
 
 my_path = path_add();
 
 state = "going";
 
-waitTimer = room_speed*5;
-
-
 // Find free seat
+seatIndex = 0;
 
 for(var i=0;i<array_length(global.counterSeats);i++)
 {
@@ -28,21 +37,13 @@ for(var i=0;i<array_length(global.counterSeats);i++)
 
         global.counterSeats[i].occupied=true;
 
-        break;
     }
 }
 
-// No seats available
-if(seatIndex==-1)
-{
-    instance_destroy();
-}
-
-
 // Generate path
 
-var tx=global.counterSeats[seatIndex].x;
-var ty=global.counterSeats[seatIndex].y;
+tx = global.counterSeats[seatIndex].x;
+ty = global.counterSeats[seatIndex].y;
 
 if(mp_grid_path(
     global.grid,
