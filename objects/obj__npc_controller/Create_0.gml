@@ -25,4 +25,7 @@ global.counterSeats = [
 
 // Spawn settings
 spawn_timer = 0;
-spawn_delay = 120;
+spawn_delay = 300;
+
+global.costumers = -1;
+global.max_costumers = 4;

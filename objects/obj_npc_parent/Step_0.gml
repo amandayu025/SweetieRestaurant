@@ -9,7 +9,9 @@ if(state=="going")
     {
         path_end();
 
-        state="waiting";
+        state ="waiting";
+		
+		
     }
 }
 
@@ -35,8 +37,8 @@ if(state=="waiting")
             my_path,
             x,
             y,
-            room_width+100,
-            y,
+            333,
+            318,
             true))
         {
             path_start(
@@ -46,7 +48,7 @@ if(state=="waiting")
                 false
             );
         }
-
         global.counterSeats[seatIndex].occupied=false;
     }
 }
+if place_meeting(x, y,obj_delete_npc)instance_destroy(self);

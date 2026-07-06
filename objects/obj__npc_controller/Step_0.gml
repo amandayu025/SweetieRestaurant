@@ -8,6 +8,6 @@ if(spawn_timer >= spawn_delay)
         333,
         302,
         "Instances",
-        obj_npc
+        obj_npc_parent
     );
 }

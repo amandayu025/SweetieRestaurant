@@ -26,6 +26,7 @@ my_path = path_add();
 
 state = "going";
 
+waitTimer = 1000;
 // Find free seat
 seatIndex = 0;
 
@@ -36,7 +37,8 @@ for(var i=0;i<array_length(global.counterSeats);i++)
         seatIndex = i;
 
         global.counterSeats[i].occupied=true;
-
+		
+		break;
     }
 }
 
