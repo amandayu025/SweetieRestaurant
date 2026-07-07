@@ -11,3 +11,5 @@ sprite[RIGHT] = spr_player_right;
 face = DOWN;
 
 global.hold_item = "";
+
+global.total = 100;

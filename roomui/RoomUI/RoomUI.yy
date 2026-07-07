@@ -47,7 +47,15 @@
               ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"name":"Soup","nodeColour":4282970832,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_3CA7DF58","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3CA7DF58","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.375,"scaleY":1.96875,"spriteId":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},"x":-7.520027,"y":-7.5,},
           ],"flexDirection":0,"gapRow":3.0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"marginTop":{"unit":1,"value":20.0,},"name":"Menu","nodeColour":4294090312,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_layer","nodeColour":4285352178,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_layer","nodeColour":4285352178,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+    {"$GMRUILayer":"v1","%Name":"Money","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"Total","alignItems":3,"children":[
+            {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                {"$GMRTextItem":"v3","%Name":"total_text","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"total_text","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2285714,"scaleY":1.4210526,"text":"$100","wrap":false,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":19.0,},"justifyContent":1,"name":"Text","nodeColour":4282970834,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":93.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_3C36D641","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3C36D641","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":2,"marginBottom":{"unit":1,"value":312.0,},"marginLeft":{"unit":1,"value":595.0,},"name":"Total","nodeColour":4294090824,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Money","nodeColour":4285483250,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
-  "visible":false,
+  "visible":true,
 }

@@ -58,6 +58,8 @@
     {"id":{"name":"spr_inside_tiles","path":"sprites/spr_inside_tiles/spr_inside_tiles.yy",},},
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},},
+    {"id":{"name":"spr_mood_angry","path":"sprites/spr_mood_angry/spr_mood_angry.yy",},},
+    {"id":{"name":"spr_mood_happy","path":"sprites/spr_mood_happy/spr_mood_happy.yy",},},
     {"id":{"name":"spr_npc_blue","path":"sprites/spr_npc_blue/spr_npc_blue.yy",},},
     {"id":{"name":"spr_npc_green","path":"sprites/spr_npc_green/spr_npc_green.yy",},},
     {"id":{"name":"spr_npc_red","path":"sprites/spr_npc_red/spr_npc_red.yy",},},

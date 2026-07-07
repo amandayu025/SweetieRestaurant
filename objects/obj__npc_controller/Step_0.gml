@@ -1,6 +1,6 @@
 spawn_timer++;
 
-if(spawn_timer >= spawn_delay)
+if(spawn_timer >= spawn_delay && room == rm_restaurant)
 {
     spawn_timer = 0;
 
