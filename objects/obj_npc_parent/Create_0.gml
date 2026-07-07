@@ -1,7 +1,7 @@
 // Random customer data
 
 colors = ["Blue","Red","Green","Yellow"];
-orders = ["Soup","Salad","Pasta","Fish"];
+orders = ["soup","salad","pasta","fish"];
 
 customer_color =
 colors[irandom(array_length(colors)-1)];
@@ -27,6 +27,8 @@ my_path = path_add();
 state = "going";
 
 waitTimer = 1000;
+
+order = 1;
 // Find free seat
 seatIndex = 0;
 

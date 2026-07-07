@@ -26,7 +26,12 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"button_id","filters":[],"listItems":[],"multiselect":false,"name":"button_id","rangeEnabled":false,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"button_id","filters":[],"listItems":[
+        "\"fish\"",
+        "\"salad\"",
+        "\"pasta\"",
+        "\"soup\"",
+      ],"multiselect":false,"name":"button_id","rangeEnabled":false,"rangeMax":4.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"fish\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
