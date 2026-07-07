@@ -1,4 +1,3 @@
-show_debug_message(global.counterSeats);
 // Random customer data
 
 colors = ["Blue","Red","Green","Yellow"];
@@ -30,6 +29,8 @@ state = "going";
 waitTimer = 1000;
 
 order = 1;
+
+served = 0;
 // Find free seat
 seatIndex = -1;
 

@@ -13,43 +13,44 @@ if(seatIndex >=0){
 		
 		
 	}
-	}
+}
 
 
 	// Sitting and waiting
 
 	if(state=="waiting")
 	{
-	waitTimer--;
+		waitTimer--;
 
-	if(waitTimer <= 0)state = "leaving";
-	}
-	if(state == "leaving"){
-	path_delete(my_path);
+		if(waitTimer <= 0 || served == 1) {
+			state = "leaving";
+			
+			path_delete(my_path);
 
-	my_path=path_add();
+			my_path=path_add();
 		
-	order = 0;
+			order = 0;
 
-	// Exit position
+			// Exit position
 
-	if(mp_grid_path(
-	    global.grid,
-	    my_path,
-	    x,
-	    y,
-	    333,
-	    318,
-	    true))
-	{
-	    path_start(
-	        my_path,
-	        2,
-	        path_action_stop,
-	        false
-	    );
-	}
-	global.counterSeats[seatIndex].occupied=false;
+			if(mp_grid_path(
+			    global.grid,
+			    my_path,
+			    x,
+			    y,
+			    333,
+			    318,
+			    true))
+			{
+			    path_start(
+			        my_path,
+			        2,
+			        path_action_stop,
+			        false
+			    );
+			}
+			global.counterSeats[seatIndex].occupied=false;
+		}
 	}
 	if place_meeting(x, y,obj_delete_npc)instance_destroy(self);
 }

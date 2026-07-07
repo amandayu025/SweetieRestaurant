@@ -1,8 +1,8 @@
 if(global.hold_item == customer_order){
-	state = "leaving";
+	served = 1;
 	global.hold_item = "";
 }
 else {
-	state = "leaving";
+	served = 1;
 	global.hold_item = "";
 }
