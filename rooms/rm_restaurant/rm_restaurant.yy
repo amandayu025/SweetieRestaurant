@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_restaurant",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_restaurant/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -22,6 +22,10 @@
     {"name":"inst_1BE675B8","path":"rooms/rm_restaurant/rm_restaurant.yy",},
     {"name":"inst_14DFF196","path":"rooms/rm_restaurant/rm_restaurant.yy",},
     {"name":"inst_7E91E6DF","path":"rooms/rm_restaurant/rm_restaurant.yy",},
+    {"name":"inst_76E0CF81","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_56D5AFFE","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_39F2BBE0","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_17CB49FE","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,7 +43,7 @@
         {"$GMRInstance":"v4","%Name":"inst_39584F13","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39584F13","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":0.78125,"x":160.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_1BE675B8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BE675B8","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.5,"scaleY":1.0,"x":160.0,"y":96.0,},
       ],"layers":[],"name":"Walls","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_Bar","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Bar","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":21,"TileCompressedData":[-85,-2147483648,-7,69,-14,-2147483648,-8,69,-13,-2147483648,-7,69,-18,-2147483648,-7,38,1,39,-13,-2147483648,-8,68,-71,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_inside","path":"tilesets/tile_inside/tile_inside.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_Bar","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Bar","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":21,"TileCompressedData":[-85,-2147483648,-7,69,-14,-2147483648,-8,69,-13,-2147483648,-7,69,-18,-2147483648,-7,38,1,39,-13,-2147483648,-8,95,-71,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_inside","path":"tilesets/tile_inside/tile_inside.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7CB7290","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CB7290","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":216.0,},
         {"$GMRInstance":"v4","%Name":"inst_74064FE3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74064FE3","objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":0.53125,"x":288.0,"y":334.0,},

@@ -9,3 +9,5 @@ sprite[LEFT] = spr_player_left;
 sprite[RIGHT] = spr_player_right;
 
 face = DOWN;
+
+global.hold_item = "";
