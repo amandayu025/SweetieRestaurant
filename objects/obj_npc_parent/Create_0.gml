@@ -1,3 +1,4 @@
+show_debug_message(global.counterSeats);
 // Random customer data
 
 colors = ["Blue","Red","Green","Yellow"];
@@ -30,9 +31,9 @@ waitTimer = 1000;
 
 order = 1;
 // Find free seat
-seatIndex = 0;
+seatIndex = -1;
 
-for(var i=0;i<array_length(global.counterSeats);i++)
+for(i = 0; i < array_length(global.counterSeats); i++)
 {
     if(!global.counterSeats[i].occupied)
     {
