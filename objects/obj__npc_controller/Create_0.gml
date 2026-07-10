@@ -14,11 +14,9 @@ mp_grid_add_instances(global.grid,obj_wall,false);
 // Counter seats
 global.counterSeats = [
 	{x: 200, y:265, occupied: false},
-	{x: 240, y:265, occupied: false},
-	{x: 280, y:265, occupied: false},
-	{x: 320, y:265, occupied: false},
-	{x: 360, y:265, occupied: false},
-	{x: 400, y:265, occupied: false}
+	{x: 270, y:265, occupied: false},
+	{x: 340, y:265, occupied: false},
+	{x: 410, y:265, occupied: false}
 ];
 
 // Spawn settings

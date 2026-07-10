@@ -1,3 +1,16 @@
+mask_index = sprite[DOWN];
+if (state == "going" || state == "leaving") {
+	if(path_index != -1){
+		if (direction >= 315 || direction < 45) face = RIGHT;
+		else if (direction >= 45 && direction < 135) face = UP;
+		else if (direction >= 135 && direction < 225) face = LEFT;
+		else face = DOWN;
+	}
+	sprite_index = sprite[face];
+}
+else if (state == "waiting") mask_index = sprite[UP];
+if (speed == 0) image_index = 0;
+depth = -bbox_bottom;
 // Arrived at seat
 if(seatIndex >=0){
 	if(state=="going")
@@ -11,7 +24,7 @@ if(seatIndex >=0){
 
 	    state ="waiting";
 		
-		
+		sprite_index = sprite[UP];
 	}
 }
 
@@ -50,6 +63,10 @@ if(seatIndex >=0){
 			    );
 			}
 			global.counterSeats[seatIndex].occupied=false;
+			if (waitTimer <= 0) {
+				mood = "angry"; 
+				served = 1;
+			}
 		}
 	}
 	if place_meeting(x, y,obj_delete_npc)instance_destroy(self);

@@ -1,22 +1,34 @@
 // Random customer data
 
-colors = ["Blue","Red","Green","Yellow"];
+colors = ["npc1","npc2","npc3","npc4"];
 orders = ["soup","salad","pasta","fish"];
 
 customer_color =
 colors[irandom(array_length(colors)-1)];
 switch (customer_color){
-	case "Blue": 
-	sprite_index = spr_npc_blue;
+	case "npc1": 
+	sprite[DOWN] = spr_npc1_down;
+	sprite[LEFT] = spr_npc1_left;
+	sprite[RIGHT] = spr_npc1_right;
+	sprite[UP] = spr_npc1_up;
 	break;
-	case "Red":
-	sprite_index = spr_npc_red;
+	case "npc2":
+	sprite[DOWN] = spr_npc2_down;
+	sprite[LEFT] = spr_npc2_left;
+	sprite[RIGHT] = spr_npc2_right;
+	sprite[UP] = spr_npc2_up;
 	break;
-	case "Green":
-	sprite_index = spr_npc_green;
+	case "npc3":
+	sprite[DOWN] = spr_npc3_down;
+	sprite[LEFT] = spr_npc3_left;
+	sprite[RIGHT] = spr_npc3_right;
+	sprite[UP] = spr_npc3_up;
 	break;
-	case "Yellow":
-	sprite_index = spr_npc_yellow;
+	case "npc4":
+	sprite[DOWN] = spr_npc4_down;
+	sprite[LEFT] = spr_npc4_left;
+	sprite[RIGHT] = spr_npc4_right;
+	sprite[UP] = spr_npc4_up;
 	break;
 }
 customer_order =
