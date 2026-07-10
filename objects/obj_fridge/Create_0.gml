@@ -1,0 +1,1 @@
+if(room == rm_restaurant) global.fruit_fridge = 0;

@@ -31,3 +31,5 @@ x += xspd;
 y += yspd;
 
 depth = - bbox_bottom;
+
+global.fruit_hold += global.fruit;

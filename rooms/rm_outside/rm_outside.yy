@@ -16,6 +16,7 @@
     {"name":"inst_14C0E08D","path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"inst_684761E3","path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"inst_64820D75","path":"rooms/rm_outside/rm_outside.yy",},
+    {"name":"inst_5A93AD61","path":"rooms/rm_outside/rm_outside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -32,6 +33,7 @@
       ],"layers":[],"name":"Walls","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5B1D9D09","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B1D9D09","objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9375,"scaleY":0.34375,"x":640.0,"y":555.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5A93AD61","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A93AD61","objectId":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":574.0,"y":641.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TilesRestaurant","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TilesRestaurant","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":100,"SerialiseWidth":100,"TileCompressedData":[
           -2219,-2147483648,-41,0,-59,-2147483648,-41,0,-59,-2147483648,-41,0,-59,-2147483648,-41,0,-59,-2147483648,

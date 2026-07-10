@@ -6,10 +6,13 @@ switch (button_id){
 		if(instance_exists(obj_npc_parent)) obj_npc_parent.visible = true;
 		break;
 	case "pasta":
-		global.hold_item = "pasta";
-		room_goto(rm_restaurant);
-		obj_player.visible = true;
-		if(instance_exists(obj_npc_parent)) obj_npc_parent.visible = true;
+		if(global.fruit_fridge > 0){
+			global.hold_item = "pasta";
+			room_goto(rm_restaurant);
+			obj_player.visible = true;
+			if(instance_exists(obj_npc_parent)) obj_npc_parent.visible = true;
+			global.fruit_fridge--;
+		}
 		break;
 	case "salad":
 		global.hold_item = "salad";

@@ -13,3 +13,7 @@ face = DOWN;
 global.hold_item = "";
 
 global.total = 100;
+
+global.fruit = 0;
+
+global.fruit_hold = 0;
