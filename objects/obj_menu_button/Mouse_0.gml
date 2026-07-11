@@ -12,6 +12,7 @@ switch (button_id){
 			obj_player.visible = true;
 			if(instance_exists(obj_npc_parent)) obj_npc_parent.visible = true;
 			global.fruit_fridge--;
+			layer_text_text(layer_text_get_id("Fridge_interior","text_tomato"),"Tomatos " + string(global.fruit_fridge));
 		}
 		break;
 	case "salad":
