@@ -70,5 +70,5 @@
           ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"marginLeft":{"unit":1,"value":62.0,},"name":"FlexPanel","nodeColour":4294105928,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
       ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Fridge_interior","nodeColour":4289284338,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
-  "visible":true,
+  "visible":false,
 }

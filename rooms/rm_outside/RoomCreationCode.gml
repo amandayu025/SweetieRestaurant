@@ -1,5 +1,9 @@
 layer_set_visible("UI_layer",false);
 layer_set_visible("Money",false);
 if(instance_exists(obj_npc_parent)) obj_npc_parent.visible = false;
-obj_plant.visible = true;
+obj_plant_tomato.visible = true;
+obj_plant_carrot.visible = true;
+obj_plant_cucumber.visible = true;
+obj_plant_lettuce.visible = true;
+obj_plant_potato.visible = true;
 obj_fridge.visible = false;
