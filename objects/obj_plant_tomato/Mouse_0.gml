@@ -1,3 +1,3 @@
-global.fruit = frame;
+global.tomato = frame;
 timer = 0;
 frame = 0;

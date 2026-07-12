@@ -14,6 +14,17 @@ global.hold_item = "";
 
 global.total = 100;
 
-global.fruit = 0;
+global.tomato = 0
+global.tomato_hold = 0;
 
-global.fruit_hold = 0;
+global.carrot = 0;
+global.carrot_hold = 0;
+
+global.cucumber = 0;
+global.cucumber_hold = 0;
+
+global.lettuce = 0;
+global.lettuce_hold = 0;
+
+global.potato = 0;
+global.potato_hold = 0;

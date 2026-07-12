@@ -4,4 +4,4 @@ timer = 0;
 frame = 0;
 image_index = 0;
 
-global.tomato = 0;
+global.potato = 0;

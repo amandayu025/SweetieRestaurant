@@ -4,4 +4,4 @@ draw_text(
     y-20,
     global.hold_item
 );
-if(global.fruit_hold > 0) draw_text(x-20,y-20,string(global.fruit_hold));
+if(global.tomato_hold > 0) draw_text(x-20,y-20,string(global.tomato_hold));

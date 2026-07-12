@@ -32,4 +32,8 @@ y += yspd;
 
 depth = - bbox_bottom;
 
-global.fruit_hold += global.fruit;
+global.tomato_hold += global.tomato;
+global.carrot_hold += global.carrot;
+global.cucumber_hold += global.cucumber;
+global.lettuce_hold += global.lettuce;
+global.potato_hold += global.potato;
