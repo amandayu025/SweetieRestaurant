@@ -1,1 +1,1 @@
-rm_target = rm_kitchen;
+rm_target = rm_restaurant;
