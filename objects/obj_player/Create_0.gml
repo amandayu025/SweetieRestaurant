@@ -28,3 +28,7 @@ global.lettuce_hold = 0;
 
 global.potato = 0;
 global.potato_hold = 0;
+
+global.egg_hold = 0;
+global.fish_hold = 0;
+global.flour_hold = 0;

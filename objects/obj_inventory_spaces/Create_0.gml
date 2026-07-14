@@ -15,3 +15,8 @@ cucumber = -1;
 lettuce = -1;
 potato = -1;
 tomato = -1;
+egg = -1;
+fish = -1;
+flour = -1;
+
+global.inventory = 0;
