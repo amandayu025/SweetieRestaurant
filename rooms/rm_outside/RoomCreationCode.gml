@@ -7,3 +7,4 @@ obj_plant_cucumber.visible = true;
 obj_plant_lettuce.visible = true;
 obj_plant_potato.visible = true;
 obj_fridge.visible = false;
+obj_lock.visible = false;

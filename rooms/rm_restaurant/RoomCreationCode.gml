@@ -10,3 +10,8 @@ layer_set_visible("UI_layer",false);
 layer_set_visible("Money",true);
 layer_set_visible("UILayer_Inventory",true);
 layer_set_visible("Fridge_interior",false);
+obj_lock.visible = true;
+layer_set_visible("Recipe_fish",false);
+layer_set_visible("Recipe_pasta",false);
+layer_set_visible("Recipe_salad",false);
+layer_set_visible("Recipe_soup",false);
