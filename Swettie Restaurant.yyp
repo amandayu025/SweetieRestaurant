@@ -135,8 +135,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_restaurant","path":"rooms/rm_restaurant/rm_restaurant.yy",},},
+    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
     {"roomId":{"name":"rm_kitchen","path":"rooms/rm_kitchen/rm_kitchen.yy",},},
   ],
